@@ -3,9 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Molt: Čistič fotiek | Molt</title>
-<meta name="description" content="Právne stránky a podpora pre Molt, čistič fotiek pre Android a iOS.">
-<meta name="color-scheme" content="light dark">
+<title>Molt: Čistič fotiek</title>
+<meta name="description" content="Molt nájde duplikáty, rozmazané zábery a staré snímky obrazovky a nechá ťa ich zahodiť potiahnutím. Všetko sa analyzuje v tvojom telefóne.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0b0818">
 <link rel="icon" type="image/png" href="../assets/icon.png">
 <link rel="stylesheet" href="../assets/site.css">
 <link rel="alternate" hreflang="en" href="../">
@@ -18,25 +19,88 @@
 <header class="site">
 <div class="wrap bar">
 <a class="brand" href="../sk/"><img src="../assets/icon.png" alt="" width="32" height="32"><span>Molt</span></a>
-<nav aria-label="Právne informácie"><ul><li><a href="../sk/" aria-current="page">Domov</a></li><li><a href="../sk/privacy/">Zásady ochrany súkromia</a></li><li><a href="../sk/terms/">Podmienky používania (Android)</a></li><li><a href="../sk/support/">Podpora</a></li></ul></nav>
+<nav aria-label="Stránka"><ul><li><a href="#how">Ako to funguje</a></li><li><a href="../sk/privacy/">Súkromie</a></li><li><a href="../sk/terms/">Podmienky</a></li><li><a href="../sk/support/">Podpora</a></li></ul></nav>
 <nav aria-label="Jazyk" class="langs"><ul><li><a href="../" lang="en" hreflang="en">EN</a></li><li><a href="../sk/" lang="sk" hreflang="sk" aria-current="true">SK</a></li><li><a href="../cs/" lang="cs" hreflang="cs">CS</a></li></ul></nav>
 </div>
 </header>
-<main id="main" class="wrap">
-<div class="hero">
-<img src="../assets/icon.png" alt="Molt" width="120" height="120">
-<h1>Molt</h1>
-<p class="lead">Molt: Čistič fotiek</p>
+<main id="main" class="landing">
+
+<section class="hero">
+<img class="fleck" src="../assets/feather.svg" alt="" style="--x:8%;--y:16%;--s:3.2rem;--r:-30deg;--dx:-6vw;--dy:55vh;--r2:140deg">
+<img class="fleck" src="../assets/feather.svg" alt="" style="--x:84%;--y:22%;--s:2.4rem;--r:40deg;--dx:5vw;--dy:38vh;--r2:-110deg">
+<img class="fleck" src="../assets/feather.svg" alt="" style="--x:74%;--y:70%;--s:4rem;--r:15deg;--dx:8vw;--dy:24vh;--r2:200deg">
+<img class="fleck" src="../assets/feather.svg" alt="" style="--x:15%;--y:74%;--s:2rem;--r:-65deg;--dx:-4vw;--dy:30vh;--r2:-160deg">
+<div class="wrap wide">
+<img class="plume" src="../assets/feather.svg" alt="" width="208" height="208">
+<p class="eyebrow">Molt: Čistič fotiek</p>
+<h1>Zbav sa fotiek, ktoré nepotrebuješ.</h1>
+<p class="lead">Duplikáty, rozmazané zábery a staré snímky obrazovky zmiznú jedným potiahnutím. Všetko sa deje v tvojom telefóne.</p>
+<div class="cta"><span class="pill">Čoskoro pre iPhone a Android</span><a class="btn" href="#how">Pozri, ako to funguje</a></div>
 </div>
-<p>Upratuj galériu fotiek v súkromí.</p>
-<p>Molt nájde v tvojej galérii duplikáty, rozmazané fotky a staré snímky obrazovky a nechá ťa ich zahodiť potiahnutím prsta. Všetko sa analyzuje priamo v tvojom zariadení: žiadny server, žiadna analytika, žiadne sledovanie a tvoje fotky nikdy neopustia telefón. Prvých 250 mazaní je zadarmo, potom 25 denne; Molt Pro limit odstráni.</p>
-<h2>Právne informácie</h2>
+</section>
+
+<section class="how" id="how">
+<div class="stage">
+<div class="wrap wide">
+<div>
+<p class="eyebrow">Ako to funguje</p>
+<h2>Tri kroky k ľahšej galérii</h2>
+<ol class="steps"><li><h3>Kontrola</h3><p>Molt prejde tvoju knižnicu fotiek priamo v telefóne.</p></li><li><h3>Potiahnutie</h3><p>Doľava presunieš fotku do koša, doprava ju ponecháš. Počítadlo ukazuje, koľko miesta sa chystáš uvoľniť.</p></li><li><h3>Zmazanie</h3><p>Skontroluj kôš, obnov, čo chceš, a potom všetko zmaž naraz jedným systémovým potvrdením.</p></li></ol>
+</div>
+<div class="phone" role="img" aria-label="Ilustrácia potiahnutí: rozmazaná fotka ide doľava do koša, dobrá fotka ide doprava a zostáva, snímka obrazovky ide do koša.">
+<div class="top" aria-hidden="true"><span>3 / 12</span><span class="freed">Uvoľnené <b></b></span></div>
+<div class="deck" aria-hidden="true">
+<div class="card c-shot"><span class="chip">Snímka obrazovky</span><span class="stamp del">ZMAZAŤ</span></div>
+<div class="card c-peak"><span class="chip">Duplikát</span><span class="stamp keep">NECHAŤ</span></div>
+<div class="card c-blur"><span class="chip">Rozmazaná</span><span class="stamp del">ZMAZAŤ</span></div>
+<div class="scan"></div>
+</div>
+<div class="go" aria-hidden="true">Zmazať 2 fotky</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="finds">
+<div class="wrap wide">
+<p class="eyebrow rv">Čo nájde</p>
+<h2 class="rv">Čo Molt nájde</h2>
+<ul class="grid4"><li class="tile rv"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="12" height="13" rx="2.5"/><path d="M9 7V6a2.5 2.5 0 0 1 2.5-2.5h7A2.5 2.5 0 0 1 21 6v8.5a2.5 2.5 0 0 1-2.5 2.5H15"/></svg><h3>Duplikáty</h3><p>Presné kópie a takmer rovnaké fotky.</p></li><li class="tile rv"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="10" width="18" height="10" rx="2.5"/><path d="M6 7h12M8.5 4h7"/></svg><h3>Série</h3><p>Série takmer rovnakých záberov.</p></li><li class="tile rv"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="6.5" stroke-dasharray="2 2.6"/><circle cx="12" cy="12" r="10" stroke-dasharray="1 3.4"/></svg><h3>Rozmazané fotky</h3><p>Neostré zábery, ktoré ti chýbať nebudú.</p></li><li class="tile rv"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M9.5 7h5M9.5 10.5h5M9.5 14h3"/></svg><h3>Staré snímky obrazovky</h3><p>Snímky obrazovky staršie ako 30 dní.</p></li></ul>
+<p class="note rv">V každej skupine podobných fotiek vždy jedna zostane: obľúbená alebo najostrejšia. Tú ti Molt na zmazanie nikdy neponúkne.</p>
+</div>
+</section>
+
+<section class="privacy">
+<div class="wrap wide">
+<p class="eyebrow rv">Súkromie na prvom mieste</p>
+<h2 class="big">Tvoje fotky nikdy neopustia telefón.</h2>
+<ul class="grid3"><li class="rv"><h3>Analýza v tvojom zariadení</h3><p>Fotky, náhľady ani výsledky sa nikam nenahrávajú. Analýza funguje aj offline.</p></li><li class="rv"><h3>Žiadny účet, žiadne reklamy, žiadne sledovanie</h3><p>Nákupy spracúvajú App Store alebo Google Play a služba RevenueCat, ktorá spravuje nákupy. Dostávajú len údaje o nákupe, nikdy nie tvoje fotky.</p></li><li class="rv"><h3>Rozhoduješ ty</h3><p>Nič sa nezmaže, kým to nepotvrdíš v systémovom dialógu.</p></li></ul>
+</div>
+</section>
+
+<section class="pricing">
+<div class="wrap wide">
+<p class="eyebrow rv">Zadarmo a Pro</p>
+<h2 class="rv">Začni zadarmo</h2>
+<div class="plans">
+<div class="plan rv left"><h3>Zadarmo</h3><p>Prvých 250 zmazaní, potom 25 každý deň. Kontrola, potiahnutia aj kôš sú vždy zadarmo.</p></div>
+<div class="plan pro rv right"><h3>Molt Pro</h3><p>Neobmedzené mazanie. Týždenné alebo ročné predplatné, prípadne jednorazový doživotný nákup.</p></div>
+</div>
+</div>
+</section>
+
+<section class="legal">
+<div class="wrap wide">
+<h2 class="rv">Právne informácie a podpora</h2>
 <ul class="links">
 <li><a href="../sk/privacy/">Zásady ochrany súkromia</a></li>
 <li><a href="../sk/terms/">Podmienky používania (Android)</a></li>
 <li><a href="../sk/support/">Podpora</a></li>
 </ul>
 <p>Na iPhone a iPade sa nákupy riadia štandardnou licenčnou zmluvou s koncovým používateľom (EULA) od Apple: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener noreferrer">Štandardná EULA od Apple</a>.</p>
+</div>
+</section>
+
 </main>
 <footer class="site"><div class="wrap"><p>Molt je aplikácia na upratovanie galérie fotiek pre Android a iOS. Tento web nepoužíva cookies ani skripty a neposiela žiadne požiadavky na iné weby.</p></div></footer>
 </body>
